@@ -1,0 +1,40 @@
+html {
+  background: url(https://images.unsplash.com/photo-1436390662179-f8592c43abe4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=68305063b41ee977354f876866dda7ab) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-box{
+  margin-top: 14px;
+}
+
+body{
+  color:#232323;
+}
+
+header {
+  background: url(https://images.unsplash.com/photo-1436390662179-f8592c43abe4?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=68305063b41ee977354f876866dda7ab) no-repeat center;
+  height: 100%;
+  background-size: cover;
+}
+
+.ion-social-linkedin-outline:before{
+  font-size: 46px;
+  color:#232323;
+
+}
+
+.linked{
+
+}
+
+.linked p{
+  font-weight: 600;
+}
+
+.email p{
+  margin-top: 20px;
+  font-weight: 600;
+}
