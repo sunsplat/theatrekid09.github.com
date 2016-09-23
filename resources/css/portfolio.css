@@ -8,10 +8,6 @@ html {
 }
 
 
-.box1{
-  float:200px;
-}
-
 body{
   color:#232323;
     font-family: 'Lato';
@@ -41,7 +37,7 @@ header {
 
 a.page-scroll{
   color:#000;
-  font-size:18px;
+  font-size:15px;
 }
 
 .nav>li>a:focus, .nav>li>a:hover{
@@ -66,8 +62,9 @@ i.ion-social-twitter{
   color:#35AAC0;
 }
 
-p{
+.text-center p{
   font-weight: 300;
+  color:#fff;
 }
 
 .text-faded{
