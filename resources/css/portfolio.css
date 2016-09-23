@@ -4,14 +4,23 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Amatic SC', cursive;
 }
 
-.portfolio-box{
-  margin-top: 14px;
+
+.box1{
+  float:200px;
 }
 
 body{
   color:#232323;
+    font-family: 'Lato';
+
+}
+
+section#portfolio{
+  background-color:rgba(127, 140, 141,0.6);
+  width: 100%;
 }
 
 header {
@@ -20,21 +29,67 @@ header {
   background-size: cover;
 }
 
+.head-text{
+  text-align: center;
+  padding: 130px;
+  font-weight: 300;
+  font-family: 'Amatic SC', cursive;
+
+
+
+}
+
+a.page-scroll{
+  color:#000;
+  font-size:18px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+img.kc{
+  border-radius: 50%;
+}
+
 .ion-social-linkedin-outline:before{
-  font-size: 46px;
+  font-size: 43px;
   color:#232323;
 
 }
+i.ion-social-twitter{
+  font-size: 30px;
+  font-style: bold;
+}
 
-.linked{
+.ion-social-linkedin-outline:before{
+  color:#35AAC0;
+}
+
+p{
+  font-weight: 300;
+}
+
+.text-faded{
+     font-family: 'Lato';
+     font-size: 18px;
 
 }
 
+
+.row{
+margin-right: 21px;
+margin-left: -45px;
+padding: 10px;
+margin: auto;
+}
+
+
 .linked p{
-  font-weight: 600;
+  font-weight: 300;
 }
 
 .email p{
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 300;
 }
