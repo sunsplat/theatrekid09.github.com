@@ -397,6 +397,10 @@ fieldset[disabled] .btn-primary.active {
     background: #222;
 }
 
+img{
+    width: 100%;
+}
+
 img::selection {
     color: #fff;
     background: 0 0;
